@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "TodoList",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

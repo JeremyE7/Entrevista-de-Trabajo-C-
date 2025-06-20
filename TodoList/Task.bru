@@ -1,0 +1,22 @@
+meta {
+  name: Task
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:5087/api/TodoTasks
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIzNzI5ZjAyNy04ZDMxLTQ4NDQtOWEwMi0zMWIwMmNmMjNjMmQiLCJ1bmlxdWVfbmFtZSI6ImplcmVteTIzNDIiLCJlbWFpbCI6ImplcmVteUBnbWFpbC5jb20iLCJuYmYiOjE3NTA0MDcyNDIsImV4cCI6MTc1MDQ5MzY0MiwiaWF0IjoxNzUwNDA3MjQyfQ.wruJ86LaL5Z5A6KYKGQSgHRSJHurWJ6_ecKddCRxrk4
+}
+
+body:json {
+  {
+    "title": "string",
+    "description": "string"
+  }
+}
